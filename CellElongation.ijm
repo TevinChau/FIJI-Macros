@@ -18,7 +18,7 @@ print("Date: "+day+"/"+(month+1)+"/"+year+"  Time: " +hour+":"+min+":"+sec);
 print("Working Directory Location: "+path);
 
 //Input for measurement parameters
-ext = ".tiff"
+ext = ".tif"
 Dialog.create("Quantification parameter");
 	Dialog.addString("Choose your file extension:", ext);
 Dialog.show(); 
